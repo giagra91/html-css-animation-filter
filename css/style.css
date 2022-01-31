@@ -153,3 +153,90 @@
     width: 60px;
     height: 20px;
 }
+
+
+.ex-12-button:hover .ex-12-top-white{
+    animation: 2s linear twelveth-top;
+}
+
+.ex-12-button:hover .ex-12-bottom-white{
+    animation: 2s linear twelveth-bottom;
+}
+
+@keyframes twelveth-top {
+0% {
+    left:10%;
+}
+50% {
+    left:68%;
+}
+100% {
+    left:10%;
+}
+}
+
+@keyframes twelveth-bottom {
+    0% {
+        right:10%;
+    }
+    50% {
+        right:68%;
+    }
+    100% {
+        right:10%;
+    }
+    }
+
+    .ex-13-button:hover .ex-13-top-white{
+        animation: 3s linear thirteenth-top;
+    }
+    
+    .ex-13-button:hover .ex-13-bottom-white{
+        animation: 3s linear thirteenth-bottom;
+    }
+
+@keyframes thirteenth-top {
+    0% {
+        left:10%;
+        top: -5%;
+    }
+    25% {
+        left:85%;
+        top: -5%;
+    }
+    50% {
+        top: 54px;
+        left: 85%;
+    }
+    75% {
+        left: -5%;
+        top: 54px;
+    }
+    100% {
+        bottom:54px;
+        left: -5%;
+    }
+    }
+
+@keyframes thirteenth-bottom {
+    0% {
+        right:20%;
+        bottom: -5%;
+    }
+    25% {
+        right:85%;
+        bottom: -5%;
+    }
+    50% {
+        bottom: 54px;
+        right: 85%;
+    }
+    75% {
+        right: -5%;
+        bottom: 54px;
+    }
+    100% {
+        bottom: -5%;
+        right: -5%;
+    }
+    }
